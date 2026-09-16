@@ -1,0 +1,233 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Ahmed Hassan",
+      "specialty": "Cardiology",
+      "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=400&q=80",
+      "description": "Experienced cardiologist specializing in heart health, prevention, and cardiovascular care.",
+      "workingDays": [
+        "Saturday",
+        "Monday",
+        "Wednesday"
+      ],
+      "slots": [
+        "10:00 AM",
+        "11:00 AM",
+        "12:00 PM"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Dr. Sara Mohamed",
+      "specialty": "Dermatology",
+      "image": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=400&q=80",
+      "description": "Dermatologist specializing in skin health, acne treatment, and cosmetic dermatology.",
+      "workingDays": [
+        "Sunday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "slots": [
+        "1:00 PM",
+        "2:00 PM",
+        "3:00 PM"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Dr. Omar Ali",
+      "specialty": "Dentistry",
+      "image": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=400&q=80",
+      "description": "Dentist providing comprehensive dental care, preventive treatments, and cosmetic dentistry.",
+      "workingDays": [
+        "Saturday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "slots": [
+        "9:00 AM",
+        "10:00 AM",
+        "11:00 AM"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Dr. Mona Ibrahim",
+      "specialty": "Pediatrics",
+      "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80",
+      "description": "Pediatrician focused on children's health, growth, development, and preventive care.",
+      "workingDays": [
+        "Sunday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "slots": [
+        "10:00 AM",
+        "11:00 AM",
+        "1:00 PM"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Dr. Youssef Adel",
+      "specialty": "Orthopedics",
+      "image": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=400&q=80",
+      "description": "Orthopedic specialist focusing on bones, joints, sports injuries, and musculoskeletal health.",
+      "workingDays": [
+        "Saturday",
+        "Monday",
+        "Wednesday"
+      ],
+      "slots": [
+        "2:00 PM",
+        "3:00 PM",
+        "4:00 PM"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Dr. Nour Khaled",
+      "specialty": "Neurology",
+      "image": "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=400&q=80",
+      "description": "Neurologist specializing in brain, nerve, and neurological disorders.",
+      "workingDays": [
+        "Sunday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "slots": [
+        "11:00 AM",
+        "12:00 PM",
+        "1:00 PM"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Dr. Karim Samir",
+      "specialty": "Ophthalmology",
+      "image": "https://images.unsplash.com/photo-1618498082410-b4aa22193b38?auto=format&fit=crop&w=400&q=80",
+      "description": "Ophthalmologist providing professional eye examinations and vision care.",
+      "workingDays": [
+        "Saturday",
+        "Monday",
+        "Wednesday"
+      ],
+      "slots": [
+        "9:00 AM",
+        "10:00 AM",
+        "12:00 PM"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Dr. Salma Tarek",
+      "specialty": "Gynecology",
+      "image": "https://images.unsplash.com/photo-1638202993928-7d113e8a8f7c?auto=format&fit=crop&w=400&q=80",
+      "description": "Gynecologist providing comprehensive women's health and reproductive care.",
+      "workingDays": [
+        "Sunday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "slots": [
+        "1:00 PM",
+        "2:00 PM",
+        "3:00 PM"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Dr. Adam El-Sayed",
+      "specialty": "Pulmonology",
+      "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&q=80",
+      "description": "Pulmonologist specializing in respiratory health, asthma, and lung conditions.",
+      "workingDays": [
+        "Saturday",
+        "Monday",
+        "Wednesday"
+      ],
+      "slots": [
+        "10:00 AM",
+        "11:00 AM",
+        "12:00 PM"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Dr. Laila Hassan",
+      "specialty": "Allergy & Immunology",
+      "image": "https://images.unsplash.com/photo-1591604466107-ec97de577aff?auto=format&fit=crop&w=400&q=80",
+      "description": "Specialist in allergies, immune system disorders, and personalized allergy care.",
+      "workingDays": [
+        "Sunday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "slots": [
+        "10:00 AM",
+        "12:00 PM",
+        "2:00 PM"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Dr. Khaled Nasser",
+      "specialty": "Urology",
+      "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=400&q=80",
+      "description": "Urologist specializing in urinary tract and men's reproductive health.",
+      "workingDays": [
+        "Saturday",
+        "Monday",
+        "Wednesday"
+      ],
+      "slots": [
+        "3:00 PM",
+        "4:00 PM",
+        "5:00 PM"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Dr. Rania Fathy",
+      "specialty": "ENT",
+      "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=400&q=80",
+      "description": "ENT specialist focused on ear, nose, throat, hearing, and sinus conditions.",
+      "workingDays": [
+        "Sunday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "slots": [
+        "9:00 AM",
+        "11:00 AM",
+        "1:00 PM"
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "doctorId": "1",
+      "doctorName": "Dr. Ahmed Hassan",
+      "specialty": "Cardiology",
+      "date": "2027-06-06",
+      "time": "16:05",
+      "status": "Confirmed",
+      "id": "xlPLRBNkcW4",
+      "patientName": "رحاب"
+    },
+    {
+      "doctorId": "2",
+      "patientName": "رحاب ",
+      "email": "rehan12@gmail.com",
+      "phone": "01062588326",
+      "date": "2027-04-05",
+      "time": "10:00 AM",
+      "doctorName": "Dr. Sara Mohamed",
+      "emergencyNote": "",
+      "createdAt": "2026-09-16T21:00:58.008Z",
+      "id": "wtZAuNnXndE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
