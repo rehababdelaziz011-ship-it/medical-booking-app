@@ -77,6 +77,5 @@ Open http://localhost:5173 to view the application.
 Deployed Frontend: View Live App (Add your Vercel or Netlify link here)
 
 👤 Author
-Name: رحاب عبد العزيز ابو القاسم
-
-Institution: جامعة الفيوم التكنولوجية (ITI Fayoum - React Summer Training)
+Name: Rehab Abdelaziz Aboulkassem
+Institution: Faiyum Technological University (ITI Fayoum - React Summer Training)
