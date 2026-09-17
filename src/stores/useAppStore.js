@@ -8,13 +8,20 @@ export const useAppStore = create(
       toggleDarkMode: () => set((state) => ({ darkMode: !state.darkMode })),
       
       favorites: [],
-      toggleFavorite: (doctorId) =>
+      toggleFavorite: (doctorOrId) =>
         set((state) => {
-          const exists = state.favorites.includes(doctorId);
+          const id = typeof doctorOrId === 'object' && doctorOrId !== null ? doctorOrId.id : doctorOrId;
+          
+          const exists = state.favorites.some((fav) => 
+            (typeof fav === 'object' && fav !== null ? fav.id : fav) === id
+          );
+
           return {
             favorites: exists
-              ? state.favorites.filter((id) => id !== doctorId)
-              : [...state.favorites, doctorId],
+              ? state.favorites.filter((fav) => 
+                  (typeof fav === 'object' && fav !== null ? fav.id : fav) !== id
+                )
+              : [...state.favorites, doctorOrId], 
           };
         }),
     }),

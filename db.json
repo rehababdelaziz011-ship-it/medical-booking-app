@@ -205,29 +205,7 @@
       ]
     }
   ],
-  "appointments": [
-    {
-      "doctorId": "1",
-      "doctorName": "Dr. Ahmed Hassan",
-      "specialty": "Cardiology",
-      "date": "2027-06-06",
-      "time": "16:05",
-      "status": "Confirmed",
-      "id": "xlPLRBNkcW4",
-      "patientName": "رحاب"
-    },
-    {
-      "doctorId": "2",
-      "patientName": "رحاب ",
-      "email": "rehan12@gmail.com",
-      "phone": "01062588326",
-      "date": "2027-04-05",
-      "time": "10:00 AM",
-      "doctorName": "Dr. Sara Mohamed",
-      "emergencyNote": "",
-      "createdAt": "2026-09-16T21:00:58.008Z",
-      "id": "wtZAuNnXndE"
-    }
+  "appointments": [    
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }

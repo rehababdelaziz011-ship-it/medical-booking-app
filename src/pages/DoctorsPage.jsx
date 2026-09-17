@@ -229,28 +229,31 @@ export default function DoctorsPage() {
                   }`}
                 >
                   <div className="relative h-56 overflow-hidden bg-gray-100 dark:bg-[#16383a]">
-                    <img
-                      src={doc.image || 'https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=500'}
-                      alt={doc.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-                    />
-                    
-                    <button
-                      onClick={() => toggleFavorite(doc)}
-                      className={`absolute top-4 right-4 p-2.5 rounded-2xl backdrop-blur-md transition shadow-md ${
-                        isFav 
-                          ? 'bg-red-500 text-white' 
-                          : 'bg-black/40 text-white hover:bg-black/60'
-                      }`}
-                      title={isFav ? 'Remove from favorites' : 'Add to favorites'}
-                    >
-                      <Heart size={18} className={isFav ? 'fill-white' : ''} />
-                    </button>
+  <img
+    src={doc.image || 'https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=500'}
+    alt={doc.name}
+    className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+  />
+  
+  <button
+    onClick={(e) => {
+      e.stopPropagation(); // عشان لو الكارد نفسه عليه لينكات أو تفاصيل م تفتحش بالغلط وأنتِ بتضغطي قلب
+      toggleFavorite(doc);
+    }}
+    className={`absolute top-4 right-4 p-2.5 rounded-2xl backdrop-blur-md transition shadow-md z-10 ${
+      isFav 
+        ? 'bg-red-500 text-white' 
+        : 'bg-black/40 text-white hover:bg-black/60'
+    }`}
+    title={isFav ? 'Remove from favorites' : 'Add to favorites'}
+  >
+    <Heart size={18} className={isFav ? 'fill-current' : ''} />
+  </button>
 
-                    <span className="absolute bottom-4 left-4 px-3 py-1 bg-black/50 backdrop-blur-md text-white text-xs font-semibold rounded-full">
-                      {doc.specialty}
-                    </span>
-                  </div>
+  <span className="absolute bottom-4 left-4 px-3 py-1 bg-black/50 backdrop-blur-md text-white text-xs font-semibold rounded-full">
+    {doc.specialty}
+  </span>
+</div>
 
                   <div className="p-6 space-y-4 flex-1 flex flex-col justify-between">
                     <div className="space-y-2">

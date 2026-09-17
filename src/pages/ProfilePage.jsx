@@ -24,9 +24,9 @@ export default function ProfilePage() {
             <User size={48} />
           </div>
           <div className="text-center sm:text-left">
-            <h2 className="text-2xl font-serif font-bold">رحاب عبد العزيز</h2>
+            <h2 className="text-2xl font-serif font-bold">Rehab Abdelaziz</h2>
             <p className={`text-sm mt-1 flex items-center justify-center sm:justify-start gap-1.5 ${darkMode ? 'text-teal-100/70' : 'text-gray-600'}`}>
-              <Mail size={15} /> rahab.abdelaziz@example.com
+              <Mail size={15} /> rehababdelaziz011@gmail.com
             </p>
             <span className="inline-block mt-3 px-3 py-1 bg-teal-500/10 text-teal-600 text-xs font-semibold rounded-full">
               Verified Patient Account
@@ -34,7 +34,6 @@ export default function ProfilePage() {
           </div>
         </div>
 
-        {/* إحصائيات سريعة */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className={`p-5 rounded-2xl border flex items-center gap-4 ${darkMode ? 'bg-[#16383a] border-[#23585a]' : 'bg-gray-50 border-gray-100'}`}>
             <Award className="text-teal-500" size={28} />
